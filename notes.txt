@@ -1,0 +1,9 @@
+Line Regression
+
+y = ax + b
+
+we will find best a and v values
+
+how to calculate error?
+how to minimize error?
+Gradient descent

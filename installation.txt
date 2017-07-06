@@ -1,0 +1,29 @@
+$conda create -n tensorflow python=3.5 
+$activate tensorflow
+$pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/cpu/tensorflow-1.2.1-cp35-cp35m-win_amd64.whl 
+
+patch to jupyter notebook
+$ activate tensorflow
+$ pip install ipykernel
+$ python -m ipykernel install --user --name tensorflow --display-name "conda env tensorflow"
+
+
+
+
+
+
+
+Download and install Anaconda for Python 3.5.
+From the TensorFlow installation instructions:
+conda create -n tensorflow python=3.5
+source activate tensorflow
+conda install -c conda-forge tensorflow
+From StackOverflow:
+conda install notebook ipykernel
+Launch Jupyter:
+jupyter notebook
+Create a notebook and type in Hello World:
+import tensorflow as tf
+hello = tf.constant('Hello, TensorFlow!')
+sess = tf.Session()
+print(sess.run(hello))
