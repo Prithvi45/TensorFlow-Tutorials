@@ -7,3 +7,24 @@ we will find best a and v values
 how to calculate error?
 how to minimize error?
 Gradient descent
+
+
+Logistic Regression
+dependent variable
+e.g  number of students passing the exam based on number of hours spent in exam hall
+the pass or fail is dependent varaible and represented by 0 & 1
+
+x axis -> no of hours
+y axis -> no of marks
+
+in logistic Reg we will get only two outcomes
+
+f(y) = pass or fail 
+output is dependent on two independent of variables
+
+# google.ai
+
+google assist
+integration of assistant to our application
+google sdk
+TPU
