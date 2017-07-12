@@ -1,4 +1,4 @@
-Line Regression
+* Line Regression
 
 y = ax + b
 
@@ -9,7 +9,7 @@ how to minimize error?
 Gradient descent
 
 
-Logistic Regression
+*Logistic Regression
 dependent variable
 e.g  number of students passing the exam based on number of hours spent in exam hall
 the pass or fail is dependent varaible and represented by 0 & 1
@@ -22,9 +22,16 @@ in logistic Reg we will get only two outcomes
 f(y) = pass or fail 
 output is dependent on two independent of variables
 
+
+
+
+===========================================EXPLORE SECTION====================================================================
 # google.ai
 
 google assist
 integration of assistant to our application
 google sdk
 TPU
+
+All Tensorflow Advance functions
+https://www.tensorflow.org/versions/r0.12/api_docs/python/math_ops/segmentation
